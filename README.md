@@ -79,10 +79,14 @@ Timing diagram of a asynchronous reset d-flip-flop:
 <img width="926" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/823923f8-f09f-481f-bc12-c008fdd9e3ec">
 
 
-Timing diagram of a asynchronous reset d-flip-flop:
+Timing diagram of a asynchronous set d-flip-flop:
 
 <img width="926" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/6267e940-1497-4e41-b029-0d436e26564f">
 
+
+Timing diagram of a synchronous reset d-flip-flop:
+
+<img width="926" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/6cb16c15-a3b2-4cff-a335-41f2691ef291">
 
 
 
