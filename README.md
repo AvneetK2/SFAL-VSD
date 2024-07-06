@@ -49,6 +49,25 @@ Heirarchy is flattend out using the flat-end switch.
 
 
 
+<img width="574" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/d9aea9c6-0ca3-48ee-9cec-c5049b871578">
+
+(Executing show command after flattening)
+
+Sythesizing at the sub-module leval and the executing the show command.
+
+<img width="348" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/b082429f-05ba-4543-9489-8491befe0e2a">
+
+Note - module level sythsis is preferred when we have multiple instance of the same module or when we are using the divide and conquer approach for massive designs.
+
+
+
+
+
+
+
+
+
+
 
 
 
