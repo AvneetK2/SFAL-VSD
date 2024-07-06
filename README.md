@@ -88,6 +88,43 @@ Timing diagram of a synchronous reset d-flip-flop:
 
 <img width="926" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/6cb16c15-a3b2-4cff-a335-41f2691ef291">
 
+Obtaining the netlist and the diagram on synthesizing the dff_asyncres:
+
+<img width="926" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/de1a8c3e-2c53-4d8b-871c-a5e785c4f6a2">
+
+Obtaining the netlist and the diagram on synthesizing the dff_async_set:
+
+<img width="929" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/71fd46d4-d890-468b-8384-c50516da8ded">
+
+Obtaining the netlist and the diagram on synthesizing the dff_syncres:
+
+<img width="923" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/63b4594c-b326-4cfd-b3ac-1538a38d29fa">
+
+Special cases:
+
+1)On synthesizing mul2 (left shift in binary representation by multiplying with 2), we learn that it is unnecessary to map ABC as there is nothing to map.
+
+<img width="914" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/4d6d7276-7693-499e-ac92-9868ae319566">
+
+2)Multiplying a 3-bit binary number with 9 such that the 6-bit binary number obtained is just repetion of the three bit number twice. Again, the message "Don't call ABC as there is nothing to map" appears when it is invoked.
+
+<img width="918" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/6bf49642-d702-45fa-83dd-aeb25a8708d8">
+
+Day3 - Combinational and sequential optimizations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
