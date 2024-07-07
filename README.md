@@ -228,6 +228,38 @@ Running the synthesis and viewing the result-
 
 ![WhatsApp Image 2024-07-07 at 11 26 27_c7d02952](https://github.com/AvneetK2/SFAL-VSD/assets/173355761/304edc50-32d3-45bd-8570-6e1d21734d7d)
 
+Sequential Optimization of unused outputs:
+
+Example 1: 3 bit counter in which the Q output only depends on the least significant bit of the counter 
+
+<img width="623" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/0b5f0c49-c2b8-44de-9f9d-bf76369f6eb8">
+
+Running the synthesis and viewing the result-
+
+<img width="932" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/b415c0de-2e05-4b0a-afde-c8cdaf86671b">
+
+Example 2: Using the previous 3 bit counter and changing the unused outputs to be used this time 
+
+<img width="620" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/5595e4ed-44fb-4e86-86aa-a8d6161f0cc4">
+
+Running the synthesis and viewing the result-
+
+<img width="930" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/8f541e24-e80b-4849-9777-8aaee2fee34c">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
