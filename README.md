@@ -204,6 +204,35 @@ Running the synthesis and viewing the result-
 
 <img width="923" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/0b204b25-8bfc-4eba-bcc9-f146bda22107">
 
+Example 4: Using two flip-flops but no flip-flop is inferred after synthesis
+
+<img width="619" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/1f64982f-9d4a-4d1e-af1f-a32b51ce477f">
+
+Viewing the timing diagram:
+
+<img width="920" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/7ce39038-6f90-4442-a042-b084b6c022fd">
+
+Running the synthesis and viewing the result-
+
+<img width="923" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/46483a5b-b138-4329-b494-f07a142a8a4b">
+
+Example 5: Using two flip-flops
+
+<img width="614" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/5196958f-cd39-4c44-8f06-dc7c524ce5bc">
+
+Viewing the timing diagram:
+
+<img width="926" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/b83bcfba-ac1f-4a7d-9a8f-2854d5ee1cf9">
+
+Running the synthesis and viewing the result-
+
+![WhatsApp Image 2024-07-07 at 11 26 27_c7d02952](https://github.com/AvneetK2/SFAL-VSD/assets/173355761/304edc50-32d3-45bd-8570-6e1d21734d7d)
+
+
+
+
+
+
 
 
 
