@@ -112,6 +112,28 @@ Special cases:
 
 Day3 - Combinational and sequential optimizations
 
+1)Combinational optimization
+
+Constant proporgation: When an one or more inputs are constants/fixed values, the expression can be futher simplified.
+
+![WhatsApp Image 2024-07-06 at 18 41 45_d245ebad](https://github.com/AvneetK2/SFAL-VSD/assets/173355761/1c19c239-86b1-455d-9a39-a59aa34e48da)
+
+Boolean logic optimization: Expressions can be simplified using boolean laws, boolean algebra, K-maps. 
+
+![WhatsApp Image 2024-07-06 at 18 47 10_50b445d1](https://github.com/AvneetK2/SFAL-VSD/assets/173355761/637efe73-79ac-4e8f-b5f4-0b63f17dcc4e)
+
+2)Sequential optimization
+
+Sequentional constant proporgation: A flop having a constant Q value irrespective of the clock/reset/set is and example of this type of proporgation.
+
+![WhatsApp Image 2024-07-06 at 18 59 58_4b1d18c1](https://github.com/AvneetK2/SFAL-VSD/assets/173355761/d9be018c-7858-4646-8ed3-fcb4ab3742f6)
+
+
+
+
+
+
+
 
 
 
