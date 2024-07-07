@@ -146,6 +146,34 @@ Example 2: Simplifying y=a?1:b to y=a+b
 
 <img width="931" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/a617e9ff-b767-4153-9820-9d94e7015b38">
 
+Example 3: Simplifying y=a?(c?b:0):0 to y=abc 
+
+![WhatsApp Image 2024-07-07 at 08 20 32_34e1a214](https://github.com/AvneetK2/SFAL-VSD/assets/173355761/d1bd7de9-edc2-4f1c-8dc7-1aebf7e2d370)
+
+<img width="924" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/21165b04-773c-40d3-ad29-c65a0a8aa221">
+
+Example 4: Simplifying y = a?(b?(a & c ):c):(!c) to y=a(xnor)c
+
+![WhatsApp Image 2024-07-07 at 08 56 24_5e1f66af](https://github.com/AvneetK2/SFAL-VSD/assets/173355761/2a77f95b-009b-4394-9b96-a7c105d3149a)
+
+<img width="928" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/5704b96d-db04-4bb7-9286-6075c0065016">
+
+Example 5: Synthesizing and flattening multiple_module_opt.v
+
+![WhatsApp Image 2024-07-07 at 09 11 38_bb0b9b67](https://github.com/AvneetK2/SFAL-VSD/assets/173355761/9642fa66-a8c6-4d94-b024-17ef4e37ce36)
+
+Example 6: Synthesizing and flattening multiple_module_opt2.v
+
+<img width="931" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/7a75b3d0-9e0a-4f5e-9837-bd2e098c2531">
+
+
+
+
+
+
+
+
+
 
 
 
