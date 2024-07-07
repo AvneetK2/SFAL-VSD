@@ -166,6 +166,49 @@ Example 6: Synthesizing and flattening multiple_module_opt2.v
 
 <img width="931" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/7a75b3d0-9e0a-4f5e-9837-bd2e098c2531">
 
+Sequential Logic Optimization Lab:
+
+Example 1: D input of the flip-flop is set to high
+
+<img width="671" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/005dc9bc-b4db-441b-b04e-5f8af6497ece">
+
+Viewing the timing diagram:
+
+<img width="929" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/52652433-a256-4b27-99f2-cc94184e051a">
+
+Running the synthesis and viewing the result-
+
+<img width="925" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/904eac91-28af-4772-8fa5-5fc826c768bf">
+
+Example 2: the output Q is always high irrespective of the clk and reset 
+
+<img width="620" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/7985305e-14a9-4882-86af-fc5bc2c1ddb1">
+
+Viewing the timing diagram:
+
+<img width="926" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/3c3786fe-4358-4efc-9477-5945de074a88">
+
+Running the synthesis and viewing the result-
+
+<img width="926" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/5098e452-fceb-4a76-af95-aa22388e6339">
+
+Example 3: Using two flip-flops 
+
+<img width="674" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/9d9c0fc9-f5df-42c3-948c-58efd4e78d10">
+
+Viewing the timing diagram:
+
+<img width="931" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/1cf9efd6-29c3-4a89-8b96-bbfec2c5011c">
+
+Running the synthesis and viewing the result-
+
+<img width="923" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/0b204b25-8bfc-4eba-bcc9-f146bda22107">
+
+
+
+
+
+
 
 
 
