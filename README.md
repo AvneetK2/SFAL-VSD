@@ -246,6 +246,10 @@ Running the synthesis and viewing the result-
 
 <img width="930" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/8f541e24-e80b-4849-9777-8aaee2fee34c">
 
+Day 4 - GLS, blocking vs non-blocking and synthesis-simulation mismatch
+
+
+
 
 
 
