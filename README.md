@@ -128,6 +128,11 @@ Sequentional constant proporgation: A flop having a constant Q value irrespectiv
 
 ![WhatsApp Image 2024-07-06 at 18 59 58_4b1d18c1](https://github.com/AvneetK2/SFAL-VSD/assets/173355761/d9be018c-7858-4646-8ed3-fcb4ab3742f6)
 
+State Optimization: By optimizing the unused states, we can reduce the delay caused in the operation.
+
+![WhatsApp Image 2024-07-06 at 19 10 36_d8b48079](https://github.com/AvneetK2/SFAL-VSD/assets/173355761/ac8b210c-6e19-43a2-b769-b0194f42dabc)
+
+
 
 
 
