@@ -260,6 +260,17 @@ An example for Missing Sensitivity List -
 
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/b48fae41-1484-40a5-9db0-d50841812739">
 
+Examples for Caveats with Blocking Statement - 
+
+<img width="541" alt="image" src="https://github.com/user-attachments/assets/ea617f34-b95a-4bbe-bd04-7191f6ae170d">
+
+<img width="536" alt="image" src="https://github.com/user-attachments/assets/3c7247c7-0902-46fb-8962-df6385f9b0aa">
+
+
+
+
+
+
 
 
 
