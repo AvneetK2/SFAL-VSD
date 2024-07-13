@@ -248,6 +248,18 @@ Running the synthesis and viewing the result-
 
 Day 4 - GLS, blocking vs non-blocking and synthesis-simulation mismatch
 
+![WhatsApp Image 2024-07-13 at 08 36 13_2bd4043f](https://github.com/user-attachments/assets/ca8ecd3f-faa1-42d0-ad88-a351bd91c621)
+
+![WhatsApp Image 2024-07-13 at 08 41 16_983d8336](https://github.com/user-attachments/assets/f2b001a8-3b1a-4b6a-9beb-82a6146cc472)
+
+There are namely three reasons that can cause synthesis simulation mismatch-
+
+<img width="352" alt="image" src="https://github.com/user-attachments/assets/f400a60d-73b9-499e-8559-ed86647ac563">
+
+An example for Missing Sensitivity List -
+
+<img width="553" alt="image" src="https://github.com/user-attachments/assets/b48fae41-1484-40a5-9db0-d50841812739">
+
 
 
 
