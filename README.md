@@ -282,7 +282,11 @@ Upon GLS simulation using iverilog using the netlist, the behavior model of the 
 
 <img width="928" alt="image" src="https://github.com/user-attachments/assets/d8837e54-131d-48ed-91a0-ade44812cb24">
 
+
+
 Lab 2 - RTL simulation and GLS simulation of bad_mux and comaparing the results 
+
+Veiwing the timing diagram of bad_mux upon RTL simulation
 
 <img width="901" alt="image" src="https://github.com/user-attachments/assets/0e28aa15-6e71-41ef-951b-b1099ce52b55">
 
@@ -290,11 +294,34 @@ A mux is inferred during synthesis
 
 <img width="921" alt="image" src="https://github.com/user-attachments/assets/d8db4ab5-d773-4996-90f0-71d27ab6e1d9">
 
-Upon GLS simulation using iverilog using the netlist, the behavior model of the cells and the same testbeanch used for RTL simulation, we obtain a similar timing diagram confirming the same mux behavior.
+Upon GLS simulation using iverilog using the netlist, the behavior model of the cells and the same testbeanch used for RTL simulation, we obtain a different timing diagram.
 
 <img width="933" alt="image" src="https://github.com/user-attachments/assets/fb2d9ea9-ae30-41b0-8644-ed51315964a1">
 
 Thus, we observe different timing diagrams during RTL simulation and during GLS simulation.This is an example of synthesis simulation mismatch which occurs due to missing sensitvity list.
+
+
+
+Lab 3 - RTL simulation and GLS simulation of blocking_caveat and comaparing the results 
+
+Veiwing the timing diagram of blocking_caveat upon RTL simulation
+
+<img width="929" alt="image" src="https://github.com/user-attachments/assets/d48d7119-096b-4552-be55-9b33964b057d">
+
+A simple logic diagram is inferred during synthesis
+
+<img width="934" alt="image" src="https://github.com/user-attachments/assets/6d7c8128-f826-42bf-9489-9d70311860ec">
+
+Upon GLS simulation using iverilog using the netlist, the behavior model of the cells and the same testbeanch used for RTL simulation, we obtain a different timing diagram.
+
+<img width="929" alt="image" src="https://github.com/user-attachments/assets/6043db04-1233-49fc-a844-c676c22aa0dc">
+
+Thus, we observe different timing diagrams during RTL simulation and during GLS simulation.This is an example of synthesis simulation mismatch which occurs due to blocking statements.
+
+
+
+
+
 
 
 
