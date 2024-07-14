@@ -266,6 +266,36 @@ Examples for Caveats with Blocking Statement -
 
 <img width="536" alt="image" src="https://github.com/user-attachments/assets/3c7247c7-0902-46fb-8962-df6385f9b0aa">
 
+Labs on GLS, blocking vs non-blocking and synthesis-simulation mismatch
+
+Lab 1 - RTL simulation and GLS simulation of ternary_operator_mux and comaparing the results 
+
+Veiwing the timing diagram of ternary_operator_mux upon RTL simulation
+
+![WhatsApp Image 2024-07-13 at 18 57 10_21b887f7](https://github.com/user-attachments/assets/19a3a967-6d7e-4f08-9154-639fef526a6d)
+
+A mux is inferred during synthesis
+
+<img width="917" alt="image" src="https://github.com/user-attachments/assets/8f50cf74-4a94-40c8-ba7d-4b4fd7a1192b">
+
+Upon GLS simulation using iverilog using the netlist, the behavior model of the cells and the same testbeanch used for RTL simulation, we obtain a similar timing diagram confirming the same mux behavior.
+
+<img width="928" alt="image" src="https://github.com/user-attachments/assets/d8837e54-131d-48ed-91a0-ade44812cb24">
+
+Lab 2 - RTL simulation and GLS simulation of bad_mux and comaparing the results 
+
+<img width="901" alt="image" src="https://github.com/user-attachments/assets/0e28aa15-6e71-41ef-951b-b1099ce52b55">
+
+A mux is inferred during synthesis
+
+<img width="921" alt="image" src="https://github.com/user-attachments/assets/d8db4ab5-d773-4996-90f0-71d27ab6e1d9">
+
+Upon GLS simulation using iverilog using the netlist, the behavior model of the cells and the same testbeanch used for RTL simulation, we obtain a similar timing diagram confirming the same mux behavior.
+
+<img width="933" alt="image" src="https://github.com/user-attachments/assets/fb2d9ea9-ae30-41b0-8644-ed51315964a1">
+
+Thus, we observe different timing diagrams during RTL simulation and during GLS simulation.This is an example of synthesis simulation mismatch which occurs due to missing sensitvity list.
+
 
 
 
