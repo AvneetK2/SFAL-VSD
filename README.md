@@ -322,6 +322,8 @@ Thus, we observe different timing diagrams during RTL simulation and during GLS 
 
 Advanced Synthesis and STA with DC
 
+Brief recap-
+
 ![WhatsApp Image 2024-07-16 at 11 18 25_12bcb359](https://github.com/user-attachments/assets/e82f31ed-6132-4ee1-ab40-b328d90ed017)
 
 ![WhatsApp Image 2024-07-16 at 11 26 33_fc29b083](https://github.com/user-attachments/assets/7b00020f-2cbf-44fd-9014-ce7dc89af101)
@@ -349,6 +351,35 @@ Thus, the contraints guide the synthesizer in choosing different flavors of cell
 ![WhatsApp Image 2024-07-16 at 11 45 11_1bea6770](https://github.com/user-attachments/assets/c0e975f1-307a-46c0-905d-ecfd2f36ca00)
 
 ![WhatsApp Image 2024-07-16 at 11 50 21_924a0378](https://github.com/user-attachments/assets/54ad708a-c3fc-4800-917c-eeb0e5324ede)
+
+Intoduction to Design Compiler(DC)-
+
+![WhatsApp Image 2024-07-16 at 12 06 13_ea783840](https://github.com/user-attachments/assets/be544e01-2a7b-42d3-85f2-1875e109b1c5)
+
+![WhatsApp Image 2024-07-16 at 12 10 22_c74b0e5f](https://github.com/user-attachments/assets/317040cd-ddd4-4b54-b785-d3ba798aa6e1)
+
+![WhatsApp Image 2024-07-16 at 12 12 01_112404f0](https://github.com/user-attachments/assets/fe36d7ef-4201-4713-8c70-d016f7131a75)
+
+![WhatsApp Image 2024-07-16 at 12 13 37_48a066d4](https://github.com/user-attachments/assets/11155894-cf27-4ef5-83f1-d2502bf91a88)
+
+We got a glimpe into the steps involved in the coversion of RTL Design to Physical Database/GDS
+
+![WhatsApp Image 2024-07-16 at 12 18 59_f979de5d](https://github.com/user-attachments/assets/2cec995a-218f-4b18-8ee4-90cf6911f0b5)
+ 
+We also learnt about the steps involved in DC Synthesis Flow-
+
+![WhatsApp Image 2024-07-16 at 12 22 46_462343ff](https://github.com/user-attachments/assets/0acea42f-e499-4593-a60e-87eeb3afaf68)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
