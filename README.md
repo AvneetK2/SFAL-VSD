@@ -4,6 +4,7 @@ Lab 0: Installation of tools
 ![Screenshot iverilog](https://github.com/AvneetK2/SFAL-VSD/assets/173355761/f59c520f-06a6-457e-973e-91b526b1985f)
 
 RTL design using Verilog with SKY130 Technology 
+
 Lab 1: Introduction to verilog design and synthesis
 
 <img width="587" alt="image" src="https://github.com/AvneetK2/SFAL-VSD/assets/173355761/e3bf56e3-5d4d-43e6-b91c-72aa9e07390e">
@@ -318,6 +319,51 @@ Upon GLS simulation using iverilog using the netlist, the behavior model of the 
 <img width="929" alt="image" src="https://github.com/user-attachments/assets/6043db04-1233-49fc-a844-c676c22aa0dc">
 
 Thus, we observe different timing diagrams during RTL simulation and during GLS simulation.This is an example of synthesis simulation mismatch which occurs due to blocking statements.
+
+Advanced Synthesis and STA with DC
+
+![WhatsApp Image 2024-07-16 at 11 18 25_12bcb359](https://github.com/user-attachments/assets/e82f31ed-6132-4ee1-ab40-b328d90ed017)
+
+![WhatsApp Image 2024-07-16 at 11 26 33_fc29b083](https://github.com/user-attachments/assets/7b00020f-2cbf-44fd-9014-ce7dc89af101)
+
+We learnt that there are differnt flavors of some gate to meet diferent requirements such as delay, power consumption and area occupied.
+
+![WhatsApp Image 2024-07-16 at 11 30 15_dd87767e](https://github.com/user-attachments/assets/b3d0d951-72ea-49e8-96fb-b346ec0a0517)
+
+![WhatsApp Image 2024-07-16 at 11 33 26_111356cc](https://github.com/user-attachments/assets/d3e3e3f4-548d-4749-8a50-41b4ad47087a)
+
+While faster cells help us maximize the speed of operation, the slower cells help us to maintain the hold requirements. 
+
+![WhatsApp Image 2024-07-16 at 11 35 43_b420b335](https://github.com/user-attachments/assets/c0a508fc-c7d2-43b1-a215-333950469f51)
+
+Faster cells are implemented using wider transistors which have greater area and power consumption. On the other hand, slower cells use norrower transistors which have lesser area and power consumption. 
+
+![WhatsApp Image 2024-07-16 at 11 36 32_9bc1f5d1](https://github.com/user-attachments/assets/eef564fd-8024-49ac-b8cf-fb65c2fdd751)
+
+Thus, the contraints guide the synthesizer in choosing different flavors of cells for the optimized implementation of the logical circuit. 
+
+![WhatsApp Image 2024-07-16 at 11 37 57_36240f62](https://github.com/user-attachments/assets/65ad5653-68d0-46b7-acdb-776a3fa0a49e)
+
+![WhatsApp Image 2024-07-16 at 11 40 32_2dcd91cd](https://github.com/user-attachments/assets/9c49730c-a45b-408e-b871-df4ab3291255)
+
+![WhatsApp Image 2024-07-16 at 11 45 11_1bea6770](https://github.com/user-attachments/assets/c0e975f1-307a-46c0-905d-ecfd2f36ca00)
+
+![WhatsApp Image 2024-07-16 at 11 50 21_924a0378](https://github.com/user-attachments/assets/54ad708a-c3fc-4800-917c-eeb0e5324ede)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
