@@ -370,6 +370,40 @@ We also learnt about the steps involved in DC Synthesis Flow-
 
 ![WhatsApp Image 2024-07-16 at 12 22 46_462343ff](https://github.com/user-attachments/assets/0acea42f-e499-4593-a60e-87eeb3afaf68)
 
+Lab 1 - Invoking dc basic setup 
+
+View the .lib file to understand its PVT (Process, Voltage, Temperature). Note electronic circuit operation is a function of its process, voltage and temperature. From the .lib file we learn that there are different flovors of the same cell to meet our time delay, area and power specifications.
+
+<img width="922" alt="image" src="https://github.com/user-attachments/assets/d85c5d7f-6612-4dc8-8fba-d3c4ade0c059">
+
+Viewing the verilog code for the flip flop with asynchronous reset
+
+<img width="926" alt="image" src="https://github.com/user-attachments/assets/27f450f6-6089-41dd-8b4b-9b0b6f2ef6c4">
+
+As there was no standard cell library provided, the library is written out in the form of GTECH. GTECH  is virtual library in DC's memory to understand the design.
+
+<img width="925" alt="image" src="https://github.com/user-attachments/assets/9ce33dda-7d79-411d-a301-4dec5fe17ab8">
+
+We notice that when the netlist is written in sky130 library, the SEQGEN is no longer used.
+
+<img width="919" alt="image" src="https://github.com/user-attachments/assets/39c75bcf-c7e2-4e05-b9d6-5225c5bb342f">
+
+Lab 2 - Into to dcc gui with design_vision
+
+Note that ddc saves all the information in the tool memory for that particular session. One disadvantage of using ddc is that it is Synopsys proprietry format. 
+
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/71f338a3-b217-4524-ae51-1f4b69e9841b">
+
+Viewing the schematic on Design Vision
+
+<img width="925" alt="image" src="https://github.com/user-attachments/assets/4999d288-b454-484c-b9af-bed139f09ceb">
+
+Lab 3 - dc synopsys dc setup
+
+
+
+
+
 
 
 
