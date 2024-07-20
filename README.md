@@ -404,6 +404,13 @@ It is observed that the libraries need to be explicitly configured.
 
 <img width="572" alt="image" src="https://github.com/user-attachments/assets/4705130a-62d1-4293-80ba-f44485b154c1">
 
+Using .synopsys_dc.setup we can set up the $target_library and the $link_library. Thus, we do not have to explicity configure the libraries
+
+<img width="926" alt="image" src="https://github.com/user-attachments/assets/ccb51fa2-c1e9-4cd8-9690-f0966d8b130c">
+
+TCL quick refresher 
+
+
 
 
 
