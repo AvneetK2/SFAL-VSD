@@ -400,6 +400,12 @@ Viewing the schematic on Design Vision
 
 Lab 3 - dc synopsys dc setup
 
+It is observed that the libraries need to be explicitly configured.
+
+<img width="572" alt="image" src="https://github.com/user-attachments/assets/4705130a-62d1-4293-80ba-f44485b154c1">
+
+
+
 
 
 
