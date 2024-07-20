@@ -424,17 +424,38 @@ TCL quick refresher
 
 Lab 4 - TCL Scripting 
 
-Using for loop to print from 0 to 11
+Using for loop to print from 0 to 11.
 
 <img width="923" alt="image" src="https://github.com/user-attachments/assets/db7e2a0c-9721-4995-bb21-37ce3fef42d8">
 
-Using while loop to print from 0 to 1o
+Using while loop to print from 0 to 10.
 
 <img width="921" alt="image" src="https://github.com/user-attachments/assets/9e29c86a-bec3-4bff-847f-004619af5012">
 
-Creating a list and printing out its contents 
+Creating a list and printing out its contents. 
 
 <img width="922" alt="image" src="https://github.com/user-attachments/assets/48709e97-e0c1-4ddf-8e9a-d0222066deb2">
+
+On trying to print the collection, we observe that _sel13 acts as a pointer. Thus, it is acolletion of pointers. 
+
+<img width="923" alt="image" src="https://github.com/user-attachments/assets/1879b4ac-8653-4340-a4bb-53b7a8bc5f7b">
+
+To print the contents of the collection of pointers, we use get_object_name. 
+
+<img width="925" alt="image" src="https://github.com/user-attachments/assets/3af21393-71f4-4aae-8e76-8b3adbd48ffc">
+
+Making  a TCL file to print the result of multiplication of two numbers.
+
+<img width="923" alt="image" src="https://github.com/user-attachments/assets/84cfeffd-8230-412b-adad-33c061519ebd">
+
+Viewing the output. 
+
+<img width="921" alt="image" src="https://github.com/user-attachments/assets/a62c551e-ff29-4bbb-af9c-824a92b40dc8">
+
+
+
+
+
 
 
 
