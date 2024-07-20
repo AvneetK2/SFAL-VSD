@@ -452,6 +452,33 @@ Viewing the output.
 
 <img width="921" alt="image" src="https://github.com/user-attachments/assets/a62c551e-ff29-4bbb-af9c-824a92b40dc8">
 
+Day 2 - Basics of STA
+
+Getting  a deeper understanding of the minimum and maximum time delay due to hold time and the clock frequency respectively.
+
+<img width="561" alt="image" src="https://github.com/user-attachments/assets/1a7d557c-7337-47dc-96e3-3ba4a513cf16">
+
+Understanding an exaple about the inflow of water and relating it to the inflow of current. 
+
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/b916b7a8-583d-45c4-a36e-7d0cae33aa40">
+
+An example to understand the direct proportionality between delay and load capacitance.
+
+<img width="570" alt="image" src="https://github.com/user-attachments/assets/52802b30-9db1-47eb-8b5d-092bb34541be">
+
+Understanding the relationship between the delay of the gate and the input transition and output load.
+
+<img width="481" alt="image" src="https://github.com/user-attachments/assets/22ea11b2-7a05-4e00-8524-996ccc7bfc7a">
+
+
+
+
+
+
+
+
+
+
 
 
 
