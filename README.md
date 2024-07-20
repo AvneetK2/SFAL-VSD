@@ -410,6 +410,42 @@ Using .synopsys_dc.setup we can set up the $target_library and the $link_library
 
 TCL quick refresher 
 
+<img width="438" alt="image" src="https://github.com/user-attachments/assets/9099029c-a629-4eb4-b24b-e774ccac84a6">
+
+<img width="458" alt="image" src="https://github.com/user-attachments/assets/b01428c0-acfa-45a1-a0b7-64b5e945ae0b">
+
+<img width="529" alt="image" src="https://github.com/user-attachments/assets/a41efc00-9d51-4cc8-ba3c-62e9b4e91404">
+
+<img width="359" alt="image" src="https://github.com/user-attachments/assets/2f3b19d7-39f6-48a3-bdaa-59fd57adb868">
+
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/135c1005-017c-4348-a603-dfaaaf765952">
+
+<img width="528" alt="image" src="https://github.com/user-attachments/assets/0aa8377c-6f3c-4791-a2a9-347bebd83f12">
+
+Lab 4 - TCL Scripting 
+
+Using for loop to print from 0 to 11
+
+<img width="923" alt="image" src="https://github.com/user-attachments/assets/db7e2a0c-9721-4995-bb21-37ce3fef42d8">
+
+Using while loop to print from 0 to 1o
+
+<img width="921" alt="image" src="https://github.com/user-attachments/assets/9e29c86a-bec3-4bff-847f-004619af5012">
+
+Creating a list and printing out its contents 
+
+<img width="922" alt="image" src="https://github.com/user-attachments/assets/48709e97-e0c1-4ddf-8e9a-d0222066deb2">
+
+
+
+
+
+
+
+
+
+
+
 
 
 
