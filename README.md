@@ -470,6 +470,17 @@ Understanding the relationship between the delay of the gate and the input trans
 
 <img width="481" alt="image" src="https://github.com/user-attachments/assets/22ea11b2-7a05-4e00-8524-996ccc7bfc7a">
 
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/b8bd80e3-34e9-47ad-8d1c-d1078fe6cbee">
+
+<img width="481" alt="image" src="https://github.com/user-attachments/assets/8a8389d8-e411-4a84-8137-8033b45429b4">
+
+<img width="472" alt="image" src="https://github.com/user-attachments/assets/50ac57cc-f835-4d9f-bd45-1ae0dd3398ef">
+
+<img width="543" alt="image" src="https://github.com/user-attachments/assets/ce654643-d142-4ae1-ba76-3019ff275055">
+
+
+
+
 
 
 
