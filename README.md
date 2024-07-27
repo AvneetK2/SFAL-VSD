@@ -507,6 +507,81 @@ Thus it is observed that IO Modelling is based on two main factors as mentioned 
 
 ![WhatsApp Image 2024-07-27 at 13 41 22_2ac76b50](https://github.com/user-attachments/assets/f29e66e8-d856-4635-bc03-2c9c1f9c2993)
 
+Understandig how non-ideal signals affect the IO Delay Modelling.
+
+<img width="547" alt="image" src="https://github.com/user-attachments/assets/fb599c38-c301-4349-94ce-a14b9039d757">
+
+<img width="547" alt="image" src="https://github.com/user-attachments/assets/c16f9ffd-22b2-4846-9156-f7b37031cc9b">
+
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/4d80bc30-139e-4c8d-9d4f-68fedd97a5b7">
+
+<img width="543" alt="image" src="https://github.com/user-attachments/assets/62357b90-ff91-4fbf-92d7-4303640ed7d6">
+
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/7f5772ed-d01b-47d3-a855-c84411d16168">
+
+Lab 5 - Timing dot Libs
+
+<img width="922" alt="image" src="https://github.com/user-attachments/assets/264f9814-7ce8-4fe7-a131-a57e5a86ea58">
+
+If the maximum capacitance limit is violated then the net is buffered.
+
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/542f74e5-c832-4baa-bb7e-7bcfa073162d">
+
+Understanding the funtionality of the Delay Model Lookup Table.
+
+<img width="526" alt="image" src="https://github.com/user-attachments/assets/8ce854cd-fbe5-4e45-abdc-cfc22e5ec4d6">
+
+There are different flavors of the same cell to meet the requiremets for the power consumption, area and delay. Note that dot lib also contain information about the cell leakage power and the power pins.
+
+<img width="349" alt="image" src="https://github.com/user-attachments/assets/901d27eb-2ecb-438d-91d0-4f6220b0901c">
+
+The dot lib also contains information about a paticular pin, for eaxample the pin is a signal pin or a clock pin, and capacitance associated with that pin.
+
+<img width="389" alt="image" src="https://github.com/user-attachments/assets/e3a23e7e-5f58-436e-a3b3-637b4d60e4d0">
+
+Thus for a flip flop, the clock attribute is true.
+
+<img width="194" alt="image" src="https://github.com/user-attachments/assets/b95117d2-241d-4c52-ac67-fb42e3fa47a0">
+
+An example of the lookup table for and gates of different flavors to understand the delays for various output loads.
+
+<img width="395" alt="image" src="https://github.com/user-attachments/assets/80414884-11c6-4f6e-ad2d-e347de87c706">
+
+Comparing how the delay is affected for the vaious output loads for 2 input AND gate of different flavors.
+
+<img width="395" alt="image" src="https://github.com/user-attachments/assets/59f2734c-d91a-42f1-946a-05cf6465ec0a">
+
+The synthesis tool uses the properties of unateness to transmit information.
+
+It is observed the AND and OR gates exhibit positive unateness while NOT, NAND and NOR gates have negative unateness. Note that XOR gate is non-unate. Thus a XOR gate can exhibit both positive and nagative unateness based on the inputs for the XOR gate.
+
+<img width="558" alt="image" src="https://github.com/user-attachments/assets/f10ea268-40f9-4ba8-9d33-ad8b33f29e6a">
+
+Complex gate can have one pin as positive unate and the other pin as negative unate.
+
+![WhatsApp Image 2024-07-27 at 15 18 29_c3c641f0](https://github.com/user-attachments/assets/5a611924-5b9e-450d-b032-a3cf705db29c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
