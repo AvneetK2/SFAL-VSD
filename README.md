@@ -478,6 +478,47 @@ Understanding the relationship between the delay of the gate and the input trans
 
 <img width="543" alt="image" src="https://github.com/user-attachments/assets/ce654643-d142-4ae1-ba76-3019ff275055">
 
+![WhatsApp Image 2024-07-27 at 12 43 06_7cd0c08b](https://github.com/user-attachments/assets/01e0dabe-a097-4beb-9692-baa0184b6844)
+
+An example for timing paths-
+![WhatsApp Image 2024-07-27 at 12 49 48_75ec7433](https://github.com/user-attachments/assets/2bc8280d-24b2-4242-8365-8960eb0948d6)
+
+![WhatsApp Image 2024-07-27 at 13 03 16_988952e5](https://github.com/user-attachments/assets/544c51b8-8575-42f3-93c4-991a4230c8ef)
+
+Thus the synthesis tool optimized the combinational logic based on the provided clock frequency.
+
+![WhatsApp Image 2024-07-27 at 13 15 38_bd633c0d](https://github.com/user-attachments/assets/1cf58d07-6000-498b-8c8b-81b7dca8d4db)
+
+There is an acceptable input and output delays defined in the contraints.
+
+<img width="543" alt="image" src="https://github.com/user-attachments/assets/9025a409-8711-4e22-8738-f2021c119574">
+
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/a73b1744-3c93-473a-ab36-3e4b34847641">
+
+<img width="539" alt="image" src="https://github.com/user-attachments/assets/596a0a29-cdd7-4ff6-8340-10b376c5b5c0">
+
+Thus, the input external delay and the output external delay are calculated with respect to the assoiciated clock signal by the synthesizing tool.
+
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/85f8d07d-f214-4671-b7d3-5819d74d702c">
+
+Thus it is observed that IO Modelling is based on two main factors as mentioned below-
+
+<img width="367" alt="image" src="https://github.com/user-attachments/assets/af07d241-cafd-44c4-a8ba-fb3a819b7bf6">
+
+![WhatsApp Image 2024-07-27 at 13 41 22_2ac76b50](https://github.com/user-attachments/assets/f29e66e8-d856-4635-bc03-2c9c1f9c2993)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
