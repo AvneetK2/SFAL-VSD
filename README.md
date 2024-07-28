@@ -562,6 +562,51 @@ Complex gate can have one pin as positive unate and the other pin as negative un
 ![WhatsApp Image 2024-07-27 at 15 18 29_c3c641f0](https://github.com/user-attachments/assets/5a611924-5b9e-450d-b032-a3cf705db29c)
 
 
+Lab 2 - Exploring dot Lib 
+
+It is observed that the clock atrribute is true for an active low Flip Flop.
+
+<img width="310" alt="image" src="https://github.com/user-attachments/assets/6a35b75a-1f20-4148-875a-1aa91c4320e4">
+
+It is observed that the clock atrribute is false for an active low Flip Flop.
+
+<img width="299" alt="image" src="https://github.com/user-attachments/assets/e067dbfd-1613-4d8b-89e2-f49e37668311">
+
+It is observed there is no unateness for the output pin Q with respect to a clock for a FlipFlop.
+
+<img width="337" alt="image" src="https://github.com/user-attachments/assets/378cf66c-a5bf-4a49-8bc6-014eb633100f">
+
+We observe that the timing type is combination for an AND gate and falling edge for a Flip Flop.
+
+<img width="392" alt="image" src="https://github.com/user-attachments/assets/5c7b2227-9450-478a-bbed-ba4121bdf454">
+
+Note that the timimg type is with respect to the positive clock for the posedge Flip Flop and the negative clock for the negedge Flip Flop. This is observed  in the dot lib file as well.
+
+<img width="399" alt="image" src="https://github.com/user-attachments/assets/19c8ff67-7fc0-4f8f-a8bf-d3929b89dd7d">
+
+<img width="325" alt="image" src="https://github.com/user-attachments/assets/f94556ef-b130-4a66-a3f8-4043149a250b">
+
+Similary, the setup time is respect to the positive clock for the posedge Flip Flop and the negative clock for the negedge Flip Flop.
+
+<img width="383" alt="image" src="https://github.com/user-attachments/assets/90c90492-89ec-46ae-805d-1bd59c9e97b6">
+
+It is observed that the setup time is with respect to negative edge for the posedge latch and with respect to the positive edge for a negedge latch, which is observed in the dot lib file a as well.
+
+<img width="214" alt="image" src="https://github.com/user-attachments/assets/a7d4edd0-4c21-4d8c-918a-776a4f276710">
+
+<img width="373" alt="image" src="https://github.com/user-attachments/assets/7f8f7925-a490-407f-af75-6d37c670cecb">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
