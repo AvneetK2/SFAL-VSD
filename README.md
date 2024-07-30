@@ -533,23 +533,23 @@ Understanding the funtionality of the Delay Model Lookup Table.
 
 There are different flavors of the same cell to meet the requiremets for the power consumption, area and delay. Note that dot lib also contain information about the cell leakage power and the power pins.
 
-<img width="349" alt="image" src="https://github.com/user-attachments/assets/901d27eb-2ecb-438d-91d0-4f6220b0901c">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/d6f4e047-96ec-48af-b5e5-105225bcf592">
 
 The dot lib also contains information about a paticular pin, for eaxample the pin is a signal pin or a clock pin, and capacitance associated with that pin.
 
-<img width="389" alt="image" src="https://github.com/user-attachments/assets/e3a23e7e-5f58-436e-a3b3-637b4d60e4d0">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/7c8a6e6b-919e-4e9b-8962-664d410a8ac5">
 
 Thus for a flip flop, the clock attribute is true.
 
-<img width="194" alt="image" src="https://github.com/user-attachments/assets/b95117d2-241d-4c52-ac67-fb42e3fa47a0">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/dacd1fa5-48b0-44f9-9cad-b0b73eadfa94">
 
 An example of the lookup table for and gates of different flavors to understand the delays for various output loads.
 
-<img width="395" alt="image" src="https://github.com/user-attachments/assets/80414884-11c6-4f6e-ad2d-e347de87c706">
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/1de9fc4d-fe4b-4424-a560-0ae3e9aed092">
 
 Comparing how the delay is affected for the vaious output loads for 2 input AND gate of different flavors.
 
-<img width="395" alt="image" src="https://github.com/user-attachments/assets/59f2734c-d91a-42f1-946a-05cf6465ec0a">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/e47dc3d8-bef3-484a-86dc-c122b526470d">
 
 The synthesis tool uses the properties of unateness to transmit information.
 
