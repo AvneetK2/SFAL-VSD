@@ -566,11 +566,11 @@ Lab 2 - Exploring dot Lib
 
 It is observed that the clock atrribute is true for an active low Flip Flop.
 
-<img width="310" alt="image" src="https://github.com/user-attachments/assets/6a35b75a-1f20-4148-875a-1aa91c4320e4">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/d11464d5-bbb7-474d-8b17-4ce46f22bf88">
 
-It is observed that the clock atrribute is false for an active low Flip Flop.
+It is observed that the clock atrribute is false for an active low Flip Flop for the D pin.
 
-<img width="299" alt="image" src="https://github.com/user-attachments/assets/e067dbfd-1613-4d8b-89e2-f49e37668311">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/73c118bb-eaf8-48af-bfaf-017b250aa570">
 
 It is observed there is no unateness for the output pin Q with respect to a clock for a FlipFlop.
 
@@ -578,23 +578,26 @@ It is observed there is no unateness for the output pin Q with respect to a cloc
 
 We observe that the timing type is combination for an AND gate and falling edge for a Flip Flop.
 
-<img width="392" alt="image" src="https://github.com/user-attachments/assets/5c7b2227-9450-478a-bbed-ba4121bdf454">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/64a45093-260c-41d6-8a19-544330ed932a">
 
 Note that the timimg type is with respect to the positive clock for the posedge Flip Flop and the negative clock for the negedge Flip Flop. This is observed  in the dot lib file as well.
 
-<img width="399" alt="image" src="https://github.com/user-attachments/assets/19c8ff67-7fc0-4f8f-a8bf-d3929b89dd7d">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/89ae1713-2501-40c2-9e90-f17bb5e7fa5d">
 
-<img width="325" alt="image" src="https://github.com/user-attachments/assets/f94556ef-b130-4a66-a3f8-4043149a250b">
+![WhatsApp Image 2024-07-30 at 20 02 04_88994eff](https://github.com/user-attachments/assets/c6869af1-94b9-4bfc-8f52-a95632ec3a9c)
 
 Similary, the setup time is respect to the positive clock for the posedge Flip Flop and the negative clock for the negedge Flip Flop.
 
-<img width="383" alt="image" src="https://github.com/user-attachments/assets/90c90492-89ec-46ae-805d-1bd59c9e97b6">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/9b8698d2-7dd9-40e6-9efa-98b1b0188567">
 
 It is observed that the setup time is with respect to negative edge for the posedge latch and with respect to the positive edge for a negedge latch, which is observed in the dot lib file a as well.
 
-<img width="214" alt="image" src="https://github.com/user-attachments/assets/a7d4edd0-4c21-4d8c-918a-776a4f276710">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/bacc78af-3deb-4d67-9047-7cd80f01b497">
 
-<img width="373" alt="image" src="https://github.com/user-attachments/assets/7f8f7925-a490-407f-af75-6d37c670cecb">
+![WhatsApp Image 2024-07-30 at 20 40 28_295c9666](https://github.com/user-attachments/assets/95161fb8-b63f-4f29-b946-cfe32f91e3db)
+
+
+
 
 
 
