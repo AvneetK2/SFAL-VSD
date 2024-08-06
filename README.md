@@ -596,6 +596,64 @@ It is observed that the setup time is with respect to negative edge for the pose
 
 ![WhatsApp Image 2024-07-30 at 20 40 28_295c9666](https://github.com/user-attachments/assets/95161fb8-b63f-4f29-b946-cfe32f91e3db)
 
+![WhatsApp Image 2024-08-06 at 05 59 33_cb3c58d9](https://github.com/user-attachments/assets/2be2c7a6-e737-4c86-b4e8-51828eb6ea59)
+
+![WhatsApp Image 2024-08-06 at 06 00 34_b7989b4e](https://github.com/user-attachments/assets/1108bb70-7081-46f1-bb54-82fd454f00b1)
+
+![WhatsApp Image 2024-08-06 at 06 00 59_6e39dfa6](https://github.com/user-attachments/assets/67f2dec7-0a0c-42e6-8d06-c1bb88d30ff4)
+
+The concept of package on package is exhibited in the case of higher performance SoCs which are paired with physically seperate memory or secondary storage that may be layered on the top of the Soc.
+
+It is to be noted that one major difference between a motherboard and a SoC is that a motherboard consists of detachable components whereas a SoC conists of components that are integrated on a singe integral circuit. 
+
+Majority of mobile phones conists of the snapdragon SoC.
+
+<img width="537" alt="image" src="https://github.com/user-attachments/assets/014922e4-2adb-418c-b79d-4fee136bd546"> 
+It is observed that a snapdragon SoC has a arm artitecture and consists of a Krait CPU, Adreno GPU, Hexagon DSP, etc.
+
+A graphics processing unit (GPU) is a special electronic circuit that manupilates, modifies or alters the memory to accelerate the creation of images in a frame buffer which is used to output to  a display device. These GPUs are used in embedded systems such as mobile phones, personal computers, game stations, etc.
+
+The digital signal processor (DSP) is used to measure, compress or filter continuos real world analog signals.
+
+![WhatsApp Image 2024-08-06 at 07 20 50_5ae67b8c](https://github.com/user-attachments/assets/8b9a0004-a2e7-4aca-b2c1-7ff52cc48f05)
+
+![WhatsApp Image 2024-08-06 at 07 22 04_e2a66013](https://github.com/user-attachments/assets/bcc6839a-a906-4ee6-a83e-b888a93c5b00)
+
+The memory associated with a SoC maybe volatile or non-volatile. Volatile memory consits of SRAM and DRAM and non-volatile memory such as ROM. The encoder and the decoder is used for interrupting and converting it to code. 
+
+The peripheral devices consists of externally connected devices or interphases such as bluetooth, wifi, HDMI, etc.
+
+Universal Asynchronous Receiver Transmitter (URAT) is used to transmit and receive serial data to and fro from the SoC. 
+
+![WhatsApp Image 2024-08-06 at 07 44 58_eaa2fc00](https://github.com/user-attachments/assets/de298cba-d25b-4c59-8beb-e5a99b210079)
+
+![WhatsApp Image 2024-08-06 at 07 47 00_4ff2e70e](https://github.com/user-attachments/assets/8b4b2a54-ec2f-4f3c-9259-804ac64e0e29)
+
+The rvmyth core cosits of a RISC-V processor. The phaser lock loop (pll ) is used for synchronization purposes such as the clock signal generation and distribution. The digital to analog converter (DAC) is used in modern communication systems. For example an output signal which is digital signal is converted to an anolog signal so that its timind diagram/waveform csn be easily viewed.
+
+![WhatsApp Image 2024-08-06 at 08 38 07_deee3c7f](https://github.com/user-attachments/assets/044f8b07-b7a4-42b0-afab-8a726701ebb8)
+
+![WhatsApp Image 2024-08-06 at 08 41 55_a96e9e5c](https://github.com/user-attachments/assets/f29c91fb-14e6-41a1-a66c-6de953c6042e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
