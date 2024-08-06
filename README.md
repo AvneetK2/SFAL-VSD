@@ -635,6 +635,32 @@ The rvmyth core cosits of a RISC-V processor. The phaser lock loop (pll ) is use
 
 ![WhatsApp Image 2024-08-06 at 08 41 55_a96e9e5c](https://github.com/user-attachments/assets/f29c91fb-14e6-41a1-a66c-6de953c6042e)
 
+![WhatsApp Image 2024-08-06 at 09 05 31_64f6ebb8](https://github.com/user-attachments/assets/6c4c02d5-ce60-498d-bb2b-975a23f8d120)
+
+![WhatsApp Image 2024-08-06 at 09 07 25_c6e92ebe](https://github.com/user-attachments/assets/4eacf01c-60d3-46af-a5e7-eaee588e6a58)
+
+![WhatsApp Image 2024-08-06 at 09 08 06_90894f0b](https://github.com/user-attachments/assets/22e678f6-5fe6-4bd4-b963-994601ae3528)
+
+![WhatsApp Image 2024-08-06 at 09 08 57_ae88bedd](https://github.com/user-attachments/assets/01954bea-28ae-4c87-b5e5-530f87846c98)
+
+Note that mixed signal circuits are mainly designed using modeling and simulation methods. A FPGA is used for verification purposes.
+
+![WhatsApp Image 2024-08-06 at 09 25 43_65b66c3b](https://github.com/user-attachments/assets/133ffd55-478f-40c6-991a-ffcf88a59cde)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
