@@ -629,7 +629,7 @@ Universal Asynchronous Receiver Transmitter (URAT) is used to transmit and recei
 
 ![WhatsApp Image 2024-08-06 at 07 47 00_4ff2e70e](https://github.com/user-attachments/assets/8b4b2a54-ec2f-4f3c-9259-804ac64e0e29)
 
-The rvmyth core cosits of a RISC-V processor. The phaser lock loop (pll ) is used for synchronization purposes such as the clock signal generation and distribution. The digital to analog converter (DAC) is used in modern communication systems. For example an output signal which is digital signal is converted to an anolog signal so that its timind diagram/waveform csn be easily viewed.
+The rvmyth core cosits of a RISC-V processor. The phaser lock loop (pll ) is used for synchronization purposes such as the clock signal generation and distribution. The digital to analog converter (DAC) is used in modern communication systems. For example an output signal which is digital signal is converted to an anolog signal so that its waveform can be easily viewed.
 
 ![WhatsApp Image 2024-08-06 at 08 38 07_deee3c7f](https://github.com/user-attachments/assets/044f8b07-b7a4-42b0-afab-8a726701ebb8)
 
@@ -647,7 +647,68 @@ Note that mixed signal circuits are mainly designed using modeling and simulatio
 
 ![WhatsApp Image 2024-08-06 at 09 25 43_65b66c3b](https://github.com/user-attachments/assets/133ffd55-478f-40c6-991a-ffcf88a59cde)
 
+![WhatsApp Image 2024-08-06 at 13 17 55_2a2863f4](https://github.com/user-attachments/assets/22b456b7-9131-4730-a615-ae92f21aec5c)
 
+![WhatsApp Image 2024-08-06 at 13 18 37_bfa862b5](https://github.com/user-attachments/assets/eab6e051-4595-4532-9594-345ae83e29b0)
+
+In RV32I, 32 tands for the size of the registers and I stands integer operations such as addition, left shift, right shift, etc.
+
+![WhatsApp Image 2024-08-06 at 13 25 52_c7f2a959](https://github.com/user-attachments/assets/f9156c84-82b5-481b-8f4a-121d10921ba6)
+
+There are mainly 5 stages in the RISC-V processor-
+
+1)Fetch
+2)Decode
+3)Read
+4)Execute
+5)Write back
+
+
+The RISC-V processor uses Havard Architecture in which there are seperate storage and separate buses (signal path) for instruction and data to overcome the bottleneck of Von Neumann Architecture.  
+
+To perform multiple functions at the same time, the concept of pipelinig is used.
+
+![WhatsApp Image 2024-08-06 at 13 43 17_31e5c454](https://github.com/user-attachments/assets/e6e370dc-27a5-49c0-975e-f67efb871420)
+
+However, while making use of the pipelining concept, we need to keep in mind to overcome pipelining hazards.
+
+![WhatsApp Image 2024-08-06 at 13 48 53_72f82976](https://github.com/user-attachments/assets/0645bdeb-e402-4699-b84a-1a3a6e357e7b)
+
+![WhatsApp Image 2024-08-06 at 13 51 07_cc5ee344](https://github.com/user-attachments/assets/f9583a2e-14d8-4b57-906b-03f94483fe1f)
+
+![WhatsApp Image 2024-08-06 at 13 52 36_8719e7de](https://github.com/user-attachments/assets/6361def6-8b09-4b3c-9ce1-6c65ff902bf9)
+
+![WhatsApp Image 2024-08-06 at 13 53 32_39c34f0f](https://github.com/user-attachments/assets/d17d237c-ce12-47bc-9e43-7c00ee968741)
+
+![WhatsApp Image 2024-08-06 at 13 54 26_7d4f5252](https://github.com/user-attachments/assets/34080f6b-3c05-4687-8302-e717ea8dca3c)
+
+![WhatsApp Image 2024-08-06 at 13 59 10_14797ff0](https://github.com/user-attachments/assets/fda69fc0-6855-4103-9e75-4e7e6f21d817)
+
+![WhatsApp Image 2024-08-06 at 14 03 40_ce33681e](https://github.com/user-attachments/assets/5ff3cbbf-03e3-437e-ba19-00931c1b554c)
+
+![WhatsApp Image 2024-08-06 at 14 05 07_10060ee0](https://github.com/user-attachments/assets/20b89c3a-bbc6-4de3-b6ec-1d7eddb5678b)
+
+![WhatsApp Image 2024-08-06 at 14 05 46_2d314af6](https://github.com/user-attachments/assets/7efc8dd4-9643-4fa1-baa3-740a2b15f42c)
+
+![WhatsApp Image 2024-08-06 at 14 07 43_8e4c900e](https://github.com/user-attachments/assets/b3040131-31c5-4a54-b46e-82a189ead675)
+
+![WhatsApp Image 2024-08-06 at 14 08 26_399e6f1f](https://github.com/user-attachments/assets/3cdf7b38-8e40-4d33-b284-69cfa505ef87)
+
+![WhatsApp Image 2024-08-06 at 14 09 07_0dc0be40](https://github.com/user-attachments/assets/cfd4375a-eff5-42fc-abd1-20886993393d)
+
+![WhatsApp Image 2024-08-06 at 14 11 12_c0ec6bd3](https://github.com/user-attachments/assets/cbc8b50f-a4a8-4a95-8a8b-aa1ec9ac0784)
+
+![WhatsApp Image 2024-08-06 at 14 12 19_7f8d79fc](https://github.com/user-attachments/assets/93319919-4d0d-4c5f-9e14-7cba00cca5d7)
+
+![WhatsApp Image 2024-08-06 at 14 12 58_cbfb5a62](https://github.com/user-attachments/assets/b9644776-43f1-4592-b8cc-95028356cf48)
+
+![WhatsApp Image 2024-08-06 at 14 13 37_8f23d5d0](https://github.com/user-attachments/assets/2904d340-555a-4971-a4f5-6df54f7ad031)
+
+![WhatsApp Image 2024-08-06 at 14 18 23_50bcda3c](https://github.com/user-attachments/assets/ffccd0c7-9a3e-4d0d-8c36-4cc06c116684)
+
+![WhatsApp Image 2024-08-06 at 14 21 02_12938b70](https://github.com/user-attachments/assets/aee0b5af-a321-46cc-bb23-cd76dc546434)
+
+![WhatsApp Image 2024-08-06 at 14 19 26_501e6889](https://github.com/user-attachments/assets/a368b4c6-dfbd-4414-94e0-d900182dcee0)
 
 
 
