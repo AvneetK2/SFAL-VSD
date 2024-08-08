@@ -596,119 +596,217 @@ It is observed that the setup time is with respect to negative edge for the pose
 
 ![WhatsApp Image 2024-07-30 at 20 40 28_295c9666](https://github.com/user-attachments/assets/95161fb8-b63f-4f29-b946-cfe32f91e3db)
 
-![WhatsApp Image 2024-08-06 at 05 59 33_cb3c58d9](https://github.com/user-attachments/assets/2be2c7a6-e737-4c86-b4e8-51828eb6ea59)
+Introduction to the BabySoC:
 
-![WhatsApp Image 2024-08-06 at 06 00 34_b7989b4e](https://github.com/user-attachments/assets/1108bb70-7081-46f1-bb54-82fd454f00b1)
+Overview of SoC:
 
-![WhatsApp Image 2024-08-06 at 06 00 59_6e39dfa6](https://github.com/user-attachments/assets/67f2dec7-0a0c-42e6-8d06-c1bb88d30ff4)
+A System on Chip (SoC) is a single-die chip that integrates various intellectual property (IP) cores. These IPs can range from entirely digital components, such as microprocessors, to entirely analog components, such as 5G modems.
 
-The concept of package on package is exhibited in the case of higher performance SoCs which are paired with physically seperate memory or secondary storage that may be layered on the top of the Soc.
+An SoC typically includes a central processing unit (CPU), memory, input and output ports, secondary storage devices, and peripheral interfaces such as timers. 
 
-It is to be noted that one major difference between a motherboard and a SoC is that a motherboard consists of detachable components whereas a SoC conists of components that are integrated on a singe integral circuit. 
+SoCs that deliver equivalent functionality often exhibit enhanced performance characterized by reduced power consumption and a smaller semiconductor die area.
 
-Majority of mobile phones conists of the snapdragon SoC.
+The package-on-package (PoP) configuration is often employed in high-performance SoCs, where they are paired with physically separate memory or secondary storage that may be layered on top of the SoC.
 
-<img width="537" alt="image" src="https://github.com/user-attachments/assets/014922e4-2adb-418c-b79d-4fee136bd546"> 
-It is observed that a snapdragon SoC has a arm artitecture and consists of a Krait CPU, Adreno GPU, Hexagon DSP, etc.
+It is important to note that a significant difference between a motherboard and an SoC is that the former comprises detachable components, whereas an SoC integrates all components onto a single integrated circuit.
 
-A graphics processing unit (GPU) is a special electronic circuit that manupilates, modifies or alters the memory to accelerate the creation of images in a frame buffer which is used to output to  a display device. These GPUs are used in embedded systems such as mobile phones, personal computers, game stations, etc.
+Most mobile phones incorporate Snapdragon SoCs.
 
-The digital signal processor (DSP) is used to measure, compress or filter continuos real world analog signals.
-
-![WhatsApp Image 2024-08-06 at 07 20 50_5ae67b8c](https://github.com/user-attachments/assets/8b9a0004-a2e7-4aca-b2c1-7ff52cc48f05)
-
-![WhatsApp Image 2024-08-06 at 07 22 04_e2a66013](https://github.com/user-attachments/assets/bcc6839a-a906-4ee6-a83e-b888a93c5b00)
-
-The memory associated with a SoC maybe volatile or non-volatile. Volatile memory consits of SRAM and DRAM and non-volatile memory such as ROM. The encoder and the decoder is used for interrupting and converting it to code. 
-
-The peripheral devices consists of externally connected devices or interphases such as bluetooth, wifi, HDMI, etc.
-
-Universal Asynchronous Receiver Transmitter (URAT) is used to transmit and receive serial data to and fro from the SoC. 
-
-![WhatsApp Image 2024-08-06 at 07 44 58_eaa2fc00](https://github.com/user-attachments/assets/de298cba-d25b-4c59-8beb-e5a99b210079)
-
-![WhatsApp Image 2024-08-06 at 07 47 00_4ff2e70e](https://github.com/user-attachments/assets/8b4b2a54-ec2f-4f3c-9259-804ac64e0e29)
-
-The rvmyth core cosits of a RISC-V processor. The phaser lock loop (pll ) is used for synchronization purposes such as the clock signal generation and distribution. The digital to analog converter (DAC) is used in modern communication systems. For example an output signal which is digital signal is converted to an anolog signal so that its waveform can be easily viewed.
-
-![WhatsApp Image 2024-08-06 at 08 38 07_deee3c7f](https://github.com/user-attachments/assets/044f8b07-b7a4-42b0-afab-8a726701ebb8)
-
-![WhatsApp Image 2024-08-06 at 08 41 55_a96e9e5c](https://github.com/user-attachments/assets/f29c91fb-14e6-41a1-a66c-6de953c6042e)
-
-![WhatsApp Image 2024-08-06 at 09 05 31_64f6ebb8](https://github.com/user-attachments/assets/6c4c02d5-ce60-498d-bb2b-975a23f8d120)
-
-![WhatsApp Image 2024-08-06 at 09 07 25_c6e92ebe](https://github.com/user-attachments/assets/4eacf01c-60d3-46af-a5e7-eaee588e6a58)
-
-![WhatsApp Image 2024-08-06 at 09 08 06_90894f0b](https://github.com/user-attachments/assets/22e678f6-5fe6-4bd4-b963-994601ae3528)
-
-![WhatsApp Image 2024-08-06 at 09 08 57_ae88bedd](https://github.com/user-attachments/assets/01954bea-28ae-4c87-b5e5-530f87846c98)
-
-Note that mixed signal circuits are mainly designed using modeling and simulation methods. A FPGA is used for verification purposes.
-
-![WhatsApp Image 2024-08-06 at 09 25 43_65b66c3b](https://github.com/user-attachments/assets/133ffd55-478f-40c6-991a-ffcf88a59cde)
-
-![WhatsApp Image 2024-08-06 at 13 17 55_2a2863f4](https://github.com/user-attachments/assets/22b456b7-9131-4730-a615-ae92f21aec5c)
-
-![WhatsApp Image 2024-08-06 at 13 18 37_bfa862b5](https://github.com/user-attachments/assets/eab6e051-4595-4532-9594-345ae83e29b0)
-
-In RV32I, 32 tands for the size of the registers and I stands integer operations such as addition, left shift, right shift, etc.
-
-![WhatsApp Image 2024-08-06 at 13 25 52_c7f2a959](https://github.com/user-attachments/assets/f9156c84-82b5-481b-8f4a-121d10921ba6)
-
-There are mainly 5 stages in the RISC-V processor-
-
-1)Fetch
-2)Decode
-3)Read
-4)Execute
-5)Write back
+![WhatsApp Image 2024-08-08 at 11 47 34_f0d647c1](https://github.com/user-attachments/assets/db3cba00-6712-48f5-8be3-08a04e698613)
 
 
-The RISC-V processor uses Havard Architecture in which there are seperate storage and separate buses (signal path) for instruction and data to overcome the bottleneck of Von Neumann Architecture.  
+It has been observed that a Snapdragon SoC features an ARM architecture and includes a Krait CPU, an Adreno GPU, and a Hexagon DSP, among other components. 
 
-To perform multiple functions at the same time, the concept of pipelinig is used.
+A graphics processing unit (GPU) is a specialized electronic circuit designed to manipulate and alter memory to accelerate the creation of images in a frame buffer, which is then output to a display device. These GPUs are utilized in embedded systems such as mobile phones, personal computers, and gaming consoles.
 
-![WhatsApp Image 2024-08-06 at 13 43 17_31e5c454](https://github.com/user-attachments/assets/e6e370dc-27a5-49c0-975e-f67efb871420)
+A digital signal processor (DSP) is employed to measure, compress, or filter continuous real-world analog signals.
 
-However, while making use of the pipelining concept, we need to keep in mind to overcome pipelining hazards.
+There are three distinct types of SoCs:
+a) SoCs built around a microprocessor,
+b) SoCs built around a microcontroller, commonly found in mobile phones,
+c) Specialized application-specific integrated circuit (ASIC) SoCs designed for specific applications.
 
-![WhatsApp Image 2024-08-06 at 13 48 53_72f82976](https://github.com/user-attachments/assets/0645bdeb-e402-4699-b84a-1a3a6e357e7b)
+SoC Structure:
 
-![WhatsApp Image 2024-08-06 at 13 51 07_cc5ee344](https://github.com/user-attachments/assets/f9583a2e-14d8-4b57-906b-03f94483fe1f)
+A System on Chip (SoC) comprises hardware functional units, including microprocessors that execute software code, as well as a communication subsystem to connect, control, direct, and interface between these functional modules. 
 
-![WhatsApp Image 2024-08-06 at 13 52 36_8719e7de](https://github.com/user-attachments/assets/6361def6-8b09-4b3c-9ce1-6c65ff902bf9)
+Functional components primarily consist of processor cores, memory, interfaces, digital signal processors (DSPs), and other essential elements. Inter-module communication within the SoC includes bus-based communication and network-on-chip (NoC) architectures.
 
-![WhatsApp Image 2024-08-06 at 13 53 32_39c34f0f](https://github.com/user-attachments/assets/d17d237c-ce12-47bc-9e43-7c00ee968741)
+The memory associated with an SoC can be either volatile or non-volatile. Volatile memory includes SRAM and DRAM, while non-volatile memory includes ROM. Encoders and decoders are used for interrupt handling and code conversion.
 
-![WhatsApp Image 2024-08-06 at 13 54 26_7d4f5252](https://github.com/user-attachments/assets/34080f6b-3c05-4687-8302-e717ea8dca3c)
+Peripheral devices connected to the SoC consist of externally connected interfaces such as Bluetooth, Wi-Fi, HDMI, and other similar technologies.
 
-![WhatsApp Image 2024-08-06 at 13 59 10_14797ff0](https://github.com/user-attachments/assets/fda69fc0-6855-4103-9e75-4e7e6f21d817)
+A Universal Asynchronous Receiver Transmitter (UART) is employed to transmit and receive serial data to and from the SoC. 
 
-![WhatsApp Image 2024-08-06 at 14 03 40_ce33681e](https://github.com/user-attachments/assets/5ff3cbbf-03e3-437e-ba19-00931c1b554c)
+![WhatsApp Image 2024-08-08 at 11 51 01_477a7779](https://github.com/user-attachments/assets/15cdc697-226f-4a27-84c4-f2b469699ded)
 
-![WhatsApp Image 2024-08-06 at 14 05 07_10060ee0](https://github.com/user-attachments/assets/20b89c3a-bbc6-4de3-b6ec-1d7eddb5678b)
+![WhatsApp Image 2024-08-08 at 11 51 23_f66669f8](https://github.com/user-attachments/assets/a8fbbaef-84dd-45c3-8709-cda7709e34ae)
 
-![WhatsApp Image 2024-08-06 at 14 05 46_2d314af6](https://github.com/user-attachments/assets/7efc8dd4-9643-4fa1-baa3-740a2b15f42c)
+The RVMyth core features a RISC-V processor. A phase-locked loop (PLL) is used for synchronization purposes, such as clock signal generation and distribution. A digital-to-analog converter (DAC) is used in modern communication systems to convert digital output signals into analog signals, allowing the waveform to be easily viewed.
 
-![WhatsApp Image 2024-08-06 at 14 07 43_8e4c900e](https://github.com/user-attachments/assets/b3040131-31c5-4a54-b46e-82a189ead675)
+This structure ensures efficient integration and communication of various functional units, enabling the SoC to perform complex tasks effectively within a compact and power-efficient design.
 
-![WhatsApp Image 2024-08-06 at 14 08 26_399e6f1f](https://github.com/user-attachments/assets/3cdf7b38-8e40-4d33-b284-69cfa505ef87)
+Introduction to Modeling
 
-![WhatsApp Image 2024-08-06 at 14 09 07_0dc0be40](https://github.com/user-attachments/assets/cfd4375a-eff5-42fc-abd1-20886993393d)
+Modeling Overview:
+In the context of electronic systems, modeling refers to the creation of a physical or logical representation of a given system to generate data, inform decisions, or predict system behavior. This process aids in defining, analyzing, and communicating a set of concepts. Modeling and simulation are extensively utilized in the VLSI (Very Large Scale Integration) domain to support system analysis, specification, design, verification, and validation.
 
-![WhatsApp Image 2024-08-06 at 14 11 12_c0ec6bd3](https://github.com/user-attachments/assets/cbc8b50f-a4a8-4a95-8a8b-aa1ec9ac0784)
+Purpose of Modeling:
+System models are developed specifically to:
+a) Support analysis and specification,
+b) Facilitate design,
+c) Enable verification,
+d) Conduct validation,
+e) Communicate specific information effectively.
 
-![WhatsApp Image 2024-08-06 at 14 12 19_7f8d79fc](https://github.com/user-attachments/assets/93319919-4d0d-4c5f-9e14-7cba00cca5d7)
+Notably, mixed-signal circuits are primarily designed using modeling and simulation methods. FPGA (Field-Programmable Gate Array) is frequently employed for verification purposes.
 
-![WhatsApp Image 2024-08-06 at 14 12 58_cbfb5a62](https://github.com/user-attachments/assets/b9644776-43f1-4592-b8cc-95028356cf48)
+BabySoC Modeling
 
-![WhatsApp Image 2024-08-06 at 14 13 37_8f23d5d0](https://github.com/user-attachments/assets/2904d340-555a-4971-a4f5-6df54f7ad031)
+Structure and Initial Setup:
+The BabySoC modeling process begins with feeding initial input signals into the vsdbabysoc module, which triggers the PLL to generate the appropriate clock (CLK) signal for the circuit. This clock signal enables the RVMyth core to execute instructions stored in its memory (imem), subsequently filling register r17 with values cycle by cycle. These values are utilized by the DAC core to produce the final output signal, named OUT. The primary modeling task involves the three main IP cores: RVMyth, PLL, and DAC.
 
-![WhatsApp Image 2024-08-06 at 14 18 23_50bcda3c](https://github.com/user-attachments/assets/ffccd0c7-9a3e-4d0d-8c36-4cc06c116684)
+Introduction to RVMyth
 
-![WhatsApp Image 2024-08-06 at 14 21 02_12938b70](https://github.com/user-attachments/assets/aee0b5af-a321-46cc-bb23-cd76dc546434)
+RVMyth Details:
 
-![WhatsApp Image 2024-08-06 at 14 19 26_501e6889](https://github.com/user-attachments/assets/a368b4c6-dfbd-4414-94e0-d900182dcee0)
+RVMyth stands for "RISC-V-based MYTH," where MYTH denotes "Microprocessor for You in Thirty Hours," and RISC signifies "Reduced Instruction Set Computer." The RISC-V ISA (Instruction Set Architecture) comprises a base integer ISA, which must be present in any implementation, plus optional extensions. The primary base integer variants are RV32I and RV64I, where "32" and "64" indicate the size of the registers, and "I" denotes integer operations. 
+
+![WhatsApp Image 2024-08-08 at 11 55 30_88d0f288](https://github.com/user-attachments/assets/5821fd1e-6661-459d-84bd-45a00ede6a54)
+
+Processor Stages:
+The RISC-V processor utilizes a Harvard Architecture, featuring separate storage and buses for instruction and data to overcome the Von Neumann Architecture bottleneck. The processor operates in five stages:
+1. Fetch,
+2. Decode,
+3. Read,
+4. Execute,
+5. Write back.
+
+Pipelining is employed to perform multiple functions simultaneously, although it is essential to manage pipelining hazards. 
+
+![WhatsApp Image 2024-08-06 at 13 43 16_80761d95](https://github.com/user-attachments/assets/62276f36-f547-40be-8324-2a43fad82f20)
+
+Introduction to Phase-Locked Loop (PLL)
+
+PLL Functionality:
+A phase-locked loop (PLL) is an electronic circuit that uses a voltage-driven oscillator to constantly adjust to match the frequency of the input signal. PLLs are essential for generating, stabilizing, modulating, and demodulating frequencies.
+
+Necessity of PLL in SoC:
+Clocks in SoCs are generated using a quartz crystal oscillator. While off-chip oscillators can be used for frequencies under 100MHz, higher frequencies require on-chip PLLs due to several factors:
+1. The need to supply clocks to multiple blocks on the chip, where longer wires could cause delays and clock jitter,
+2. Different blocks on the same chip may require varying clock frequencies (e.g., one block may need a 300MHz clock while another needs a 100MHz clock),
+3. The accuracy of the clock, measured in parts per million (ppm), which can have ppm errors when using off-chip clocks.
+
+![WhatsApp Image 2024-08-06 at 13 52 35_2bb0a817](https://github.com/user-attachments/assets/700661ff-25ad-44eb-afb7-ac392ce27c7b)
+
+![WhatsApp Image 2024-08-06 at 13 53 31_7a3412ce](https://github.com/user-attachments/assets/587833b2-d896-4dc0-a7ee-9dff50f6754e)
+
+![WhatsApp Image 2024-08-06 at 13 54 25_62d83806](https://github.com/user-attachments/assets/39f997d4-abcd-4713-9e41-3b1430f8b7ad)
+   
+Introduction to Digital-to-Analog Converter (DAC)
+
+A Digital-to-Analog Converter (DAC) transforms a digital input signal into an analog output signal. The digital signal is represented as a binary code, composed of a combination of 0s and 1s. A DAC typically features multiple binary inputs and a single analog output, with the number of binary inputs usually being a power of two.
+
+Types of DACs
+
+There are two primary types of DACs:
+1. Weighted Resistor DAC
+2. R-2R Ladder DAC
+
+Weighted Resistor DAC:
+A Weighted Resistor DAC generates an analog output that closely approximates the digital (binary) input by employing binary weighted resistors within an inverting adder circuit. This type of DAC is commonly referred to simply as a Weighted Resistor DAC. 
+
+![WhatsApp Image 2024-08-08 at 12 04 33_8d7d777a](https://github.com/user-attachments/assets/3d50516a-fbb9-4563-9cf6-ea0d36cf3dfc)
+
+Disadvantages of Weighted Resistor DAC:
+The primary disadvantages of a Weighted Resistor DAC include issues related to precision and scalability, as the accuracy of the output heavily depends on the precision of the resistor values, which can become impractical for high-bit applications.
+
+R-2R Ladder DAC:
+The R-2R Ladder DAC addresses the disadvantages associated with the Weighted Resistor DAC. As the name implies, the R-2R Ladder DAC produces an analog output that closely matches the digital (binary) input by utilizing an R-2R ladder network within the inverting adder circuit. This design simplifies the resistor requirements, making it more practical and scalable for high-resolution applications.
+
+![WhatsApp Image 2024-08-08 at 12 05 25_c2623a95](https://github.com/user-attachments/assets/fc10a868-39a0-4ada-aa9f-bf0863e0b342)
+
+![WhatsApp Image 2024-08-06 at 14 05 45_7c6353a6](https://github.com/user-attachments/assets/92176632-64a1-40b2-a818-b090dac9ae21)
+
+Initiating the Modelling Process
+To model RVMyth, which is a digital block, Hardware Description Language (HDL) is employed for designing and verifying its functionality through a testbench. Since the DAC and PLL are analog components, Verilog cannot be directly used for synthesizing these designs. Instead, we simulate these components using Verilog with real data types to ensure their logical correctness. The primary objective is to verify the functionality through simulation. Verilog serves as the modeling language, Icarus Verilog (iverilog) is used for compilation and simulation, and GTKWave is utilized for waveform visualization and debugging.
+
+Modelling and Simulation Workflow:
+
+Modeling and Simulation Steps Using Icarus Verilog:
+Icarus Verilog (iverilog) is a compiler for the Verilog hardware description language that produces a netlist in the desired format. The modeling and simulation process in iverilog comprises two primary steps:
+
+Compilation:
+iverilog builds the instance hierarchy and generates a binary executable (a.out). This executable is later used for simulation.
+
+Simulation:
+During compilation, iverilog generates a binary executable which is then used to simulate the design.
+
+Tips for Effective Modelling:
+
+Avoid race conditions.
+Use an optimized testbench for efficient debugging.
+Create models that simulate quickly.
+Understand the behavior of case statements thoroughly.
+Using GTKWave:
+
+GTKWave provides a graphical interface for debugging designs by visualizing waveforms. The design is first run with a valid testbench using the commands:
+
+iverilog design_file.v design_testbench.v
+
+./a.out
+
+This should execute without errors, and preferably without warnings. A .vcd file (Value Change Dump) is generated during this process. Ensure that these commands are run within the project directory or design folder.
+
+RVMyth Modelling Steps:
+The RISC-V CPU core is implemented in Verilog, with the corresponding testbench already in place.
+The entire C program is converted into hex format and loaded into memory.
+The CPU reads the memory contents, processes them, and outputs the result.
+The following commands are executed to model and simulate the design once the respective git repository is cloned:
+
+iverilog mythcore_test.v tb_mythcore_test.v
+
+./a.out 
+
+gtkwave <file_name>.vcd
+
+Modelling DAC and PLL:
+The same steps are followed for the DAC and PLL components:
+
+iverilog dac_test.v tb_dac_test.v
+
+./a.out
+
+gtkwave <file_name>.vcd
+
+iverilog pll_test.v tb_pll_test.v
+
+./a.out
+
+gtkwave <file_name>.vcd
+
+Interfacing and Verifying the Integrated Design:
+Once the individual blocks have been verified, they are interfaced together as follows:
+
+iverilog rvmyth.v tb_rvmyth.v
+
+./a.out 
+
+gtkwave <file_name>.vcd
+
+iverilog rvmyth_dac.v tb_rvmyth_dac.v
+
+./a.out 
+
+gtkwave <file_name>.vcd
+
+iverilog rvmyth_pll.v tb_rvmyth_pll.v
+
+./a.out 
+
+gtkwave <file_name>.vcd
+
+These steps ensure that each block is functioning correctly both individually and when interfaced together, providing a comprehensive approach to modeling and simulating the BabySoC.
 
 Advanced Physical Design using OpenLane/Sky 130
 
@@ -726,6 +824,10 @@ The chip is placed at the center and is connected to the package using wire bond
 <img width="247" alt="image" src="https://github.com/user-attachments/assets/19abd26f-6044-4c1b-9ba3-c5650df25c5a">
 
 A diagram of the internal components of the chip with the foundry IP's indicated.
+
+
+
+
 
 
 
