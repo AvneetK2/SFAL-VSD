@@ -811,17 +811,18 @@ These steps ensure that each block is functioning correctly both individually an
 Advanced Physical Design using OpenLane/Sky 130
 
 Day 1- Inception of open-source EDA, OpenLANE and Sky130 PDK
-<img width="189" alt="image" src="https://github.com/user-attachments/assets/eabaac28-a5e8-403a-8441-5570924ed9a8">
+
+![WhatsApp Image 2024-08-13 at 21 18 03_7683f1a5](https://github.com/user-attachments/assets/10018a03-00c2-47e4-ba92-611b4a3b4c5a)
 
 Image of a package. This is an example of the QFN-48 package that has dimensions 7mmx7mm.
 
-<img width="220" alt="image" src="https://github.com/user-attachments/assets/5755f26b-558a-45f1-81cb-9024d5408930">
+![WhatsApp Image 2024-08-13 at 21 18 46_1d9636c4](https://github.com/user-attachments/assets/a95e87a8-bb3d-4bc3-97c5-b94f132f45cb)
 
 The chip is placed at the center and is connected to the package using wire bonds.
 
-<img width="220" alt="image" src="https://github.com/user-attachments/assets/8e49dc3d-ca1e-42fa-a12b-f72e085647fb">
+![WhatsApp Image 2024-08-13 at 21 19 21_5dac7a4c](https://github.com/user-attachments/assets/577091e7-62d8-4e27-9bad-af3dad8f92a2)
 
-<img width="247" alt="image" src="https://github.com/user-attachments/assets/19abd26f-6044-4c1b-9ba3-c5650df25c5a">
+![WhatsApp Image 2024-08-13 at 21 19 49_e57edb7e](https://github.com/user-attachments/assets/d55977e6-5949-4eae-8ba9-6b7f96093467)
 
 A diagram of the internal components of the chip with the foundry IP's indicated.
 
