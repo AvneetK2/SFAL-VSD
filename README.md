@@ -822,9 +822,9 @@ The chip is placed at the center and is connected to the package using wire bond
 
 ![WhatsApp Image 2024-08-13 at 21 19 21_5dac7a4c](https://github.com/user-attachments/assets/577091e7-62d8-4e27-9bad-af3dad8f92a2)
 
-![WhatsApp Image 2024-08-13 at 21 19 49_e57edb7e](https://github.com/user-attachments/assets/d55977e6-5949-4eae-8ba9-6b7f96093467)
+![WhatsApp Image 2024-08-13 at 21 29 01_d849464d](https://github.com/user-attachments/assets/b39a71e1-6a47-4a5b-bcfd-6f88f2ea2448)
 
-A diagram of the internal components of the chip with the foundry IP's indicated.
+A diagram of the internal components of the chip with the foundry IPs and the macros indicated. It is to be noted that macros is pure digital logic and the IPs requires some intelligence to built and hence the name intellectual property.
 
 
 
