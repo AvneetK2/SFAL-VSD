@@ -770,6 +770,8 @@ iverilog mythcore_test.v tb_mythcore_test.v
 
 gtkwave <file_name>.vcd
 
+![WhatsApp Image 2024-08-20 at 21 25 00_0abcba75](https://github.com/user-attachments/assets/fcc7905b-7a38-4d11-99dd-6bca372b48ee)
+
 Modelling DAC and PLL:
 The same steps are followed for the DAC and PLL components:
 
