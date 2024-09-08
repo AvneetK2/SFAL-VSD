@@ -768,49 +768,24 @@ iverilog mythcore_test.v tb_mythcore_test.v
 
 ./a.out 
 
-gtkwave <file_name>.vcd
+gtkwave mythcore.vcd
 
 ![WhatsApp Image 2024-08-20 at 21 25 00_0abcba75](https://github.com/user-attachments/assets/fcc7905b-7a38-4d11-99dd-6bca372b48ee)
 
 Modelling DAC and PLL:
-The same steps are followed for the DAC and PLL components:
+The  following steps are used for the modellling of DAC and PLL-
+1. git clone https://github.com/manili/VSDBabySoC.git - this repo contains the design and testbench files for the BabySoc
+2. changing the directory using cd VSDBabySoc
+3. sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/ command is run to convert the .tlv defined rvmyth to .v
+   It generates vmyth.v and rvmyth_gen.v.
+   ![WhatsApp Image 2024-09-07 at 21 00 15_4d090f78](https://github.com/user-attachments/assets/dd4a2002-88d7-42fb-b3f1-91f6eaca5c61)
 
-iverilog dac_test.v tb_dac_test.v
+5. iverilog -o output/pre_synth_sim.out -DPRE_SYNTH_SIM src/module/testbench.v -I src/include -I src/module - is used to compile and simulate vsdbabysoc design.
+6. cd output
+7. ./pre_synth_sim.out - generateS pre_synth_sim.vcd file which is used to view the waveform.
+8. gtkwave pre_synth_sim.out - to view the waveform in gtkwave tool.
 
-./a.out
-
-gtkwave <file_name>.vcd
-
-iverilog pll_test.v tb_pll_test.v
-
-./a.out
-
-gtkwave <file_name>.vcd
-
-Interfacing and Verifying the Integrated Design:
-Once the individual blocks have been verified, they are interfaced together as follows:
-
-iverilog rvmyth.v tb_rvmyth.v
-
-./a.out 
-
-gtkwave <file_name>.vcd
-
-iverilog rvmyth_dac.v tb_rvmyth_dac.v
-
-./a.out 
-
-gtkwave <file_name>.vcd
-
-iverilog rvmyth_pll.v tb_rvmyth_pll.v
-
-./a.out 
-
-gtkwave <file_name>.vcd
-
-These steps ensure that each block is functioning correctly both individually and when interfaced together, providing a comprehensive approach to modeling and simulating the BabySoC.
-
-Advanced Physical Design using OpenLane/Sky 130
+![WhatsApp Image 2024-09-07 at 14 33 19_23293899](https://github.com/user-attachments/assets/c33f6ac1-e5f1-4f91-9787-3c509a78d996)
 
 Day 1- Inception of open-source EDA, OpenLANE and Sky130 PDK
 
