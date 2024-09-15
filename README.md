@@ -787,6 +787,25 @@ The  following steps are used for the modellling of DAC and PLL-
 
 ![WhatsApp Image 2024-09-07 at 14 33 19_23293899](https://github.com/user-attachments/assets/c33f6ac1-e5f1-4f91-9787-3c509a78d996)
 
+Post Synthesis Simulation (GLS) on BabySoc 
+
+Note that pre-synthesis simulation id done to check whether the logic designed for a paticular functionality holds good. Post-sysntesis-simulation/gate-level-simulation is done to ensure that the after sysnthesis the delayed accounted for the gates lies within the range of allowed delays such that the timing and the functionality is not violated.
+
+Synopys tools such as Design Compiler (dc_shell) and Library Compiler (lc_shell) will be implemented for the Post Synthesis Simulation.
+
+Steps for Post-sysntesis-simulation
+1) avsddac.lib, avsdpll.lib and sky130_fd_sc_hd__tt_025C_1v80.lib need to be converted to .db file using lc_shell
+   
+   ![WhatsApp Image 2024-09-14 at 20 56 09_fac147ce](https://github.com/user-attachments/assets/6a860819-3bcb-459e-b7ce-75de8d5dcc1e)
+   Some errors are observed on performing the above function that need to be debugged. 
+
+   ![WhatsApp Image 2024-09-14 at 21 18 17_1c8572c0](https://github.com/user-attachments/assets/b68e97f8-7932-49ac-bd94-4477146f58aa)
+   Once the errors have been debugged only warnings are observed on running the read_lib commmand which can be ignored for now.
+
+   
+
+
+
 Day 1- Inception of open-source EDA, OpenLANE and Sky130 PDK
 
 ![WhatsApp Image 2024-08-13 at 21 18 03_7683f1a5](https://github.com/user-attachments/assets/10018a03-00c2-47e4-ba92-611b4a3b4c5a)
