@@ -828,6 +828,8 @@ iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 -o ./output/post_synth_sim.out ./src/gls_m
 
 Thus the waveform from the pre-sythesis and from the post-synthesis are the same. 
 
+Sythesis and Timing Analysis of the BabySoc-
+
 Day 1- Inception of open-source EDA, OpenLANE and Sky130 PDK
 
 ![WhatsApp Image 2024-08-13 at 21 18 03_7683f1a5](https://github.com/user-attachments/assets/10018a03-00c2-47e4-ba92-611b4a3b4c5a)
