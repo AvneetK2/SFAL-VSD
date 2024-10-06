@@ -802,9 +802,31 @@ Steps for Post-sysntesis-simulation
    ![WhatsApp Image 2024-09-14 at 21 18 17_1c8572c0](https://github.com/user-attachments/assets/b68e97f8-7932-49ac-bd94-4477146f58aa)
    Once the errors have been debugged only warnings are observed on running the read_lib commmand which can be ignored for now.
 
-   
+   The following commands are used to synthesize the design
+   set target_library /home/avneet/vsd/VLSI/rvmyth/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.db
+  set link_library {* /home/avneet/vsd/VLSI/rvmyth/VSDBabySoC/src/lib/sky130_fd_sc_hd__tt_025C_1v80.db /home/avneet/vsd/VLSI/rvmyth/VSDBabySoC/src/lib/avsdpll.db /home/avneet/vsd/VLSI/rvmyth/VSDBabySoC/src/lib/avsddac.db}
+  set search_path {/home/avneet/vsd/VLSI/rvmyth/VSDBabySoC/src/include /home/avneet/vsd/VLSI/rvmyth/VSDBabySoC/src/module}
+  read_file {sandpiper_gen.vh  sandpiper.vh  sp_default.vh  sp_verilog.vh clk_gate.v rvmyth.v rvmyth_gen.v vsdbabysoc.v} -autoread -top vsdbabysoc  
+ link  
+ compile_ultra
+  write_file -format verilog -hierarchy -output /home/avneet/vsd/VLSI/rvmyth/VSDBabySoC/output/vsdbabysoc_net.v
 
+![WhatsApp Image 2024-09-24 at 21 19 19_46fd3a2e](https://github.com/user-attachments/assets/9a0a25bf-74eb-4a14-9fc0-5d8899ccd349)
 
+The following commandsare then executed in /home/avneet/vsd/VLSI/rvmyth/VSDBabySoC :
+iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 -o ./output/post_synth_sim.out ./src/gls_model/primitives.v ./src/gls_model/sky130_fd_sc_hd.v ./output/vsdbabysoc_net.v ./src/module/avsdpll.v ./src/module/avsddac.v ./src/module/testbench.v
+
+ cd output
+ 
+ ./post_synth_sim.out
+ 
+  gtkwave dump.vcd
+
+  The post-synthesis waveform is then compared with the pre-synthesis waveform 
+  
+![WhatsApp Image 2024-10-05 at 20 56 15_f48a59d5](https://github.com/user-attachments/assets/ee987a59-7c0d-4498-be5e-cc787527892c)
+
+Thus the waveform from the pre-sythesis and from the post-synthesis are the same. 
 
 Day 1- Inception of open-source EDA, OpenLANE and Sky130 PDK
 
